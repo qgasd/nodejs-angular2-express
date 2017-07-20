@@ -1,0 +1,51 @@
+<body>
+<app-page-header [heading]="'CodeTool'" [icon]="'fa-wrench'"></app-page-header>
+<div id="main_div">
+    <table class="table table-bordered">
+        <thead>
+           <th colspan="2">数据源配置</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="myspan1">名称：<span class="myspan2">*</span></span></td>
+                <td><input class="myinput"/></td>
+            </tr>
+            <tr>
+                <td><span class="myspan1">驱动程序类型：<span class="myspan2">*</span></span></td>
+                <td><input class="myinput"/></td>
+            </tr>
+            <tr>
+                <td><span class="myspan1">驱动程序类：<span class="myspan2">*</span></span></td>
+                <td><input class="myinput"/></td>
+            </tr>
+            <tr>
+                <td><span class="myspan1">连接字符串：<span class="myspan2">*</span></span></td>
+                <td><input class="myinput"/></td>
+            </tr>
+            <tr>
+                <td><span class="myspan1">用户名：<span class="myspan2">*</span></span></td>
+                <td><input class="myinput"/></td>
+            </tr>
+              <tr>
+                <td><span class="myspan1">密码：<span class="myspan2">*</span></span></td>
+                <td><input class="myinput"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">保存密码</td>
+            </tr>
+           
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <div id="tddiv">
+                        <button type="button" class="btn btn-info">查看数据源</button>
+                        <button type="button" class="btn btn-info">测试连接</button>
+                        <button type="button" class="btn btn-info">保存</button>
+                        <button type="button" class="btn btn-info">制作报表</button>
+                        <button type="button" class="btn btn-info">报表展示</button>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+<br/>
+</body>
